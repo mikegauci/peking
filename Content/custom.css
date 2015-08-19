@@ -1,0 +1,1437 @@
+﻿
+@font-face{
+    font-family: Chinese;
+    src:url(../fonts/Chinese.ttf);
+}
+/*-----------HOME-------------*/
+
+/*                 NAVIGAVTION BAR                       */
+.navbar-brand{
+    color:#c0392b !important;
+    font-family: Chinese;
+    font-size: 40px;
+    text-shadow: 3px 5px 3px black;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #c0392b;
+    font-size: 19px;
+    font-family: Chinese;
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    text-shadow: 3px 5px 3px black;
+}
+
+.dropdown-menu{
+    background-color: #222;
+    border: 3px solid #c0392b;
+    text-shadow: 1px 1px 10px black;
+    font-family: Chinese;
+
+}   
+/*                 MAIN CONTENT                       */
+
+.jumbotron{
+    background-image: url(Images/china-wallpaper-4-edit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    box-shadow: inset 0px 0px 207px 11px rgba(0,0,0,1);
+    height: 1266px;
+    margin-bottom: 0;
+    margin-top: -21px;
+    overflow: hidden;
+}
+
+#myCarousel{
+    text-align: center;
+    width: 80%;
+    height: 0%;
+    border: 5px solid black;
+    margin: 154px auto 25px;
+    box-shadow: 0px 0px 127px 120px rgba(0,0,0,0.85);
+
+}
+
+.item h1{
+    text-align: center;
+}
+
+#main-content h1{
+    text-align: center;
+    color: black;
+    font-family: 'Exo';
+    border-bottom: 4px solid;
+    font-weight: bold;
+    margin-top: 150px;
+    padding-bottom: 15px;
+    letter-spacing: 4px;
+    text-shadow: 3px 5px 3px #c0392b;
+}
+
+#main-content h3{
+    text-align: center;
+    color: #c0392b;
+    text-shadow: 1px 4px 3px black;
+    font-family: 'Exo';
+    border-bottom: 4px solid black;
+    padding-bottom: 15px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+#emph-text{
+    color: #c0392b;
+    font-family: Chinese;
+    text-shadow: 3px 5px 3px black;
+}
+/*                 2ND CONTENT                   */
+
+.jumbotron-1{
+    height:850px;
+    background-color:#191919;
+}
+
+.jumbotron-1 .container{
+    margin-bottom: -100px
+}
+
+#row-1{
+    margin-top: 70px;
+}
+
+/*      Carousel      */
+
+.carousel-inner {
+    -webkit-backface-visibility: hidden !important;
+    -webkit-perspective: 1000 !important;
+}
+
+#carousel-comments{
+    text-align: center;
+    color: #c0392b;
+    text-shadow: 1px 1px 10px #333;
+    font-family: 'Exo';
+    border-bottom: 4px solid black;
+    padding-bottom: 15px;
+    position:absolute;
+}
+
+#carousel-comments h1{
+    font-weight: 900;
+    text-shadow: 3px 5px 3px black;
+}
+
+#carousel-comments h3{
+    font-weight: bold;
+    text-shadow: 3px 5px 3px black;
+}
+
+#carousel-comments p{
+    letter-spacing: 7px;
+    padding-top: 30px;
+    text-shadow: 0px 1px 13px black;
+}
+
+#carousel-comments a{
+    color: #c0392b;
+}
+
+/*      Opening Hours      */
+
+#open-hours{
+    border: 5px solid;
+    padding: 10px;
+    border: 5px solid;
+    padding: 10px;
+    width: 100%;
+    color: #c0392b;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    text-shadow: 1px 1px 10px #333;
+    border-radius: 25px;
+    font-family: 'Exo';
+    text-shadow: 3px 5px 3px black;
+}
+
+#open-hours h2{
+    font-size: 29px;
+    border-bottom: 4px solid;
+    padding-bottom: 11px;
+    font-weight: 900;
+    text-shadow: 3px 5px 3px black;
+}
+
+
+#open-hours h4{
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+#open-hours p{
+    font-size: 15px;
+}
+
+/*      Google Map      */
+
+
+#map{
+    width: 400px;
+    height: 400px;
+}
+
+.google-map{
+    margin-top: 60px;
+    border: 5px solid #c0392b;
+    border-radius: 10px;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+}
+
+/*      Trip Advisor      */
+
+#trip-ad{
+    width: 100%;
+    margin-top: 75%;
+    border: 6px groove gray;
+}
+
+#trip-ad:hover{
+    opacity: 0.5;
+}
+
+/*          BOTTOM CONTENT         */
+
+#back-to-top{
+    text-align: right;
+    padding-right: 30px;
+    background-color: #191919;
+}
+
+.fa-chevron-circle-up{
+    color: #c0392b;
+}
+
+#find-fb{
+    text-align: center;
+    color: #c0392b;
+    text-shadow: 1px 1px 10px #333;
+    font-family: 'Exo';
+    margin: 0;
+    text-shadow: 3px 5px 3px black;
+    background-color: #191919;
+    padding-bottom: 20px;
+}
+
+#find-fb a{
+    color: #c0392b;
+}
+
+.fa-facebook-square{
+    color: #22A;
+    margin-left: 10px;
+
+}
+
+footer{  
+    font-family: 'Exo';
+    color: #c0392b;
+    background-color: #222;
+    font-size: 17px;
+    height: 0%;
+    padding-top: 16px;
+    text-shadow: 3px 5px 3px black;
+    border-top: 1px solid black;
+}
+
+
+#footer-right {
+    text-align: right;
+}
+
+/*                 MEDIA QUERIES                       */
+
+@media(max-width: 1199px) {
+
+    #trip-ad{
+        margin-top: 110%;
+    }
+
+    #quick-list{
+        height: 254px !important;
+    }
+
+    #quick-list-2 h2{
+        font-size: 19px !important;
+    }
+
+    #quick-list-3{
+        bottom: 200px !important;
+        height: 31% !important;
+    }
+
+    #quick-list-3 h2{
+        font-size: 19px !important;
+    }
+
+    .google-map-2{
+        width: 72% !important;
+    }
+
+    h1.menu-sub{
+        font-size: 37px !important;
+    }
+
+    h1.menu-sub span{
+        font-size: 16px !important;
+        margin-right: 14px !important;
+    }
+
+    #wine-menu-item h3 {
+        font-size: 18px !important;
+    }
+
+    #wine-menu-item h4 {
+        font-size: 14px;
+    }
+
+    span#wine-span {
+    margin-right: 73px !important;
+    }
+
+    #jumbotron-5{
+        height: 4765px !important;
+    }
+
+}
+
+@media(max-width: 991px) {  
+    #main-content {
+        margin-top: 85px;
+    }
+
+    .jumbotron-1 {
+        height: 1200px;
+    }
+
+    #jumbotron-6{
+        height:1263px !important;
+    }
+
+    #jumbotron-7{
+        height: 980px !important;
+    }
+
+    .navbar-brand{
+       font-size: 35px;
+    }
+
+    #open-hours {
+        margin-top: 42%;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #trip-ad {
+        display: none;
+    }
+
+    .google-map {
+        margin-top: 190px;
+        margin-left: 90px;
+    }
+
+
+    #footer-left {
+        text-align: center;
+    }
+
+    #footer-right {
+        text-align: center;
+    }
+
+    #jumbotron-2{
+        height:1400px !important;
+    }
+
+    #open-hours-2{
+        margin-top: 82px !important;
+    }
+
+    #myCarousel-2{
+        width: 92% !important;
+    }
+
+    #main-content-2 h1{
+        font-size: 46px;
+    }
+
+    #menu-body{
+        width:72%;
+    }
+
+    #open-hours-3{
+        right: 38px;
+        height: 271px !important;
+    }
+
+    #quick-list{
+        right: 38px;
+        top: 381px;
+        height: 250px !important;
+    }
+    #quick-list h4{
+        margin-top: -4px !important;
+    }
+
+    #main-content-3 h1{
+        font-size: 56px;
+    }
+
+    #quick-list-2{
+        right: 38px;
+        top: 368px;
+        height: 237px !important;
+    }
+
+    #quick-list-3{
+        right: 38px;
+        top: 368px;
+        height: 237px !important;
+    }
+
+    #quick-list-3 h4{
+        padding-bottom: 6px !important;
+    }
+
+    #quick-list-3 h2{
+        font-size: 18px !important;
+    }
+
+    .google-map-2{
+        margin-left: 100px;
+    }
+
+    #field{
+        width: 50% !important;
+        margin-left: 180px;
+    }
+
+    .areabox{
+        width: 100% !important;
+    }
+
+}
+
+@media(max-width: 834px) {
+    #quick-list{
+        margin-right: -22px !important;
+        width: 26% !important;
+    }
+
+    #open-hours-3 p{
+        font-size: 13px !important;
+    }
+
+}
+
+
+@media(max-width: 766px) {
+    .navbar-brand{
+        font-size:25px;
+    }
+
+    #myCarousel{
+        margin-top:320px;
+    }
+
+    #main-content h1{
+        margin-top: 150px;
+    }
+
+    #main-content-2 h1{
+        margin-top: 260px !important;
+    }
+
+    .google-map{
+        width: 70%;
+    }
+
+    #main-content-3 h1{
+        margin-top: 210px !important;
+    }
+
+    #open-hours-3{
+        display: none;
+    }
+
+    #jumbotron-2{
+        height: 1760px !important;
+    }
+
+    #jumbotron-4{
+        height: 7190px !important;
+    }
+
+    #jumbotron-5{
+        height: 5700px !important;
+    }
+
+    #jumbotron-6{
+        height: 1450px !important;
+    }
+
+    #menu-body{
+        width: 60% !important;
+    }
+
+    #menu-item h3{
+        font-size: 14px !important;
+    }
+
+    #quick-list{
+        width: 29% !important;
+        height: 205px !important;
+    }
+
+    #quick-list h2{
+        font-size: 20px;
+    }
+
+    #quick-list h4{
+        font-size: 13px !important;
+        margin-bottom: 3px;
+    }
+
+    #quick-list-2{
+        height: 208px !important;
+    }
+
+    #quick-list-2 h2{
+        font-size: 16px !important;
+    }
+
+    #quick-list-2 h4{
+        font-size: 15px !important;
+        padding-bottom: 8px !important;
+    }
+
+    .col-xs-6 {
+        width: 42%;
+    }
+
+    h1.menu-sub{
+        font-size: 28px !important;
+    }
+
+    #wine-menu-item h3{
+        font-size: 14px !important;
+    }
+
+    span#wine-span{
+        margin-right: 62px !important;
+    }
+
+    #drink-menu-item h3{
+        font-size: 14px !important;
+    }
+
+    #drink-menu-item h4{
+        font-size: 11px !important;
+    }
+
+    #jumbotron-5{
+        height: 4575px !important;
+    }
+
+}
+
+@media(max-width: 673px){
+    #open-hours{
+        margin-top:50%;
+    }
+
+    #quick-list{
+         height: 220px !important;
+         width: 28% !important;
+    }
+
+    #menu-item h3{
+        font-size: 13px !important;
+    }
+
+    #quick-list-3 h2{
+        font-size: 16px !important;
+    }
+
+    #quick-list-3 h4{
+        font-size: 15px !important;
+    }
+}
+
+@media(max-width: 628px){
+    #open-hours{
+        margin-top: 70%;
+    }
+
+    .google-map{
+        width: 360px;
+        height: 260px;
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+
+    .google-map-2{
+        margin-left: 73px;
+    }
+
+    #quick-list{
+        display: none;
+    }
+
+    #quick-list-2{
+        display: none;
+    }
+
+     #quick-list-3{
+         display: none;
+     }
+
+    #menu-body{
+        width: 100% !important;
+    }
+
+    #menu-item h3{
+        font-size: 14px !important;
+    }
+
+    #jumbotron-4{
+        height: 6390px !important;
+    }
+
+    #field{
+        width: 80% !important;
+        margin-left: 50px !important;
+    }
+}
+
+@media(max-width: 498px){
+    .google-map{
+        margin-left: 55px;
+    }
+
+    #open-hours{
+        margin-top: 80%;
+    }
+
+    #open-hours h2 {
+        font-size:25px;
+    }
+
+    #jumbotron-2{
+        height: 1611px !important;
+    }
+
+}
+
+@media(max-width: 428px){
+    #open-hours{
+        margin-top: 125%;
+        width: 87%;
+        margin-left: 7%;
+        margin-bottom: 35%;
+    }
+
+    #open-hours h2{
+        font-size:15px;
+    }
+
+    #open-hours h4{
+        font-size:14px;
+        margin-top: 0%;
+    }
+
+    #open-hours p{
+        font-size:11px;
+    }
+
+    .google-map{
+        width: 95%;
+        margin-left: 4%;
+        margin-top: 25%;
+    }
+
+
+}
+
+@media(max-width: 358px){
+    #open-hours{
+        margin-top: 125%;
+        width: 87%;
+        margin-left: 7%;
+        margin-bottom: 35%;
+    }
+
+    #open-hours h2{
+        font-size:15px;
+    }
+
+    #open-hours h4{
+        font-size:14px;
+        margin-top: 0%;
+    }
+
+    #open-hours p{
+        font-size:11px;
+    }
+
+    .google-map{
+        width: 95%;
+        margin-left: 4%;
+    }
+
+    #carousel-comments h1{
+        font-size: 28px;
+    }
+
+    #carousel-comments h3{
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    #carousel-comments p{
+        margin-top:10px;
+        letter-spacing: 7px;
+        padding-top: 30px;
+        font-size: 12px;
+    }
+
+    .fa-chevron-circle-up{
+        padding-bottom: 30px;
+    }
+
+    #myCarousel{
+        margin-top: 355px !important;
+    }
+
+    #main-content h1 {
+        margin-top: 108px !important;
+    }
+    
+    #main-content-2 h1{
+        margin-top: 260px !important;
+        font-size: 31px;
+    }
+
+    #main-content-2 h3{
+        font-size: 15px;
+    }
+    
+    #myCarousel-2{
+        width: 100% !important;
+    }
+    
+    #jumbotron-2{
+        height: 1433px !important;
+    }
+    
+    #open-hours-2{
+        height: 360px !important;
+    }
+
+    #main-content-3 h1 {
+        font-size: 40px;
+    }
+
+    #menu-header h2 {
+        font-size: 27px !important;
+    }
+
+    #menu-item h3 {
+        font-size: 11px !important;
+    }
+    
+    #jumbotron-3{
+        height: 5481px !important;
+    }
+    
+    .google-map-2{
+        margin-left: 46px;
+    }
+
+    .areabox{
+        width: 180% !important;
+        margin-left: -42px;
+    }
+
+    #field{
+        margin-left: 30px !important;
+    }
+    
+    fieldset h3{
+        font-size: 19px;
+    }
+    
+    #address h1{
+        font-size: 20px;
+    }
+    
+    #address h2{
+        font-size: 16px;
+    }
+    
+    h1#special, h2#menu-A, h2#menu-B, h2#menu-C{
+        font-size: 22px !important;
+    }
+    
+    #sub-head h2{
+        font-size: 19px;
+    }
+    
+    #set-menu-item h3{
+        font-size: 16px;
+    }
+
+    #set-menu-item h4 {
+        font-size: 13px;
+    }
+
+    #price h2{
+        font-size: 22px;
+    }
+
+    #jumbotron-4 {
+        height: 5390px !important;
+    }
+    
+    h1.menu-sub{
+        font-size: 22px !important;
+    }
+    
+    h1.menu-sub span{
+        font-size: 11px !important;
+        margin-right: 13px !important;
+    }
+    
+    #wine-menu-item h3{
+        font-size: 10px !important;
+    }
+    
+    #wine-menu-item h4{
+        font-size: 10px !important;
+    }
+    
+    #drink-menu-item h3{
+        font-size: 15px !important;
+    }
+    
+    #drink-menu-item h4{
+        font-size: 13px !important;
+    }
+
+    h1.menu-sub span {
+        font-size: 10px !important;
+    }
+    
+    #drink-menu-item h3 span{
+        margin-right: 16px !important;
+    }
+    
+    span#wine-span {
+        margin-right: 50px !important;
+    }           
+}
+
+/*-----------ABOUT-------------*/
+
+#jumbotron-2 {
+    background-image: url(Images/china-wallpaper-4-edit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    box-shadow: inset 0px 0px 207px 11px rgba(0,0,0,1);
+    height: 966px;
+    margin-bottom: 0;
+    margin-top: -21px;
+    overflow: hidden;
+}
+
+
+#main-content-2 h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Exo';
+    border-bottom: 4px solid;
+    font-weight: bold;
+    padding-bottom: 15px;
+    margin-top: 70px;
+    letter-spacing: 4px;
+    text-shadow: 3px 5px 3px #c0392b;
+}
+
+#main-content-2 h3 {
+    text-align: center;
+    color: #c0392b;
+    text-shadow: 1px 4px 3px black;
+    font-family: 'Exo';
+    border-bottom: 4px solid black;
+    padding-bottom: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+#myCarousel-2 {
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    border: 5px solid black;
+    margin: 25px auto 25px;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+}
+
+#open-hours-2 {
+    background-color: #191919;
+    margin-top: 18px;
+    border: 5px solid;
+    padding: 10px;
+    width: 100%;
+    height: 320px;
+    color: #c0392b;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    text-shadow: 1px 1px 10px #333;
+    border-radius: 25px;
+    font-family: 'Exo';
+    text-shadow: 3px 5px 3px black;
+}
+
+#open-hours-2 h2 {
+    font-size: 29px;
+    border-bottom: 4px solid;
+    padding-bottom: 11px;
+    margin-left: 0px;
+    padding-left: 23px;
+    font-weight: 900;
+    text-shadow: 3px 5px 3px black;
+}
+
+#open-hours-2 h4 {
+        text-align: center;
+        margin-top: 21px;
+        font-weight: bold;
+}
+
+#open-hours-2 p {
+    font-size: 18px;
+    font-weight:300;
+    margin-bottom: -20px;
+}
+
+#find-fb-2 {
+    text-align: center;
+    color: #c0392b;
+    text-shadow: 1px 1px 10px #333;
+    font-family: 'Exo';
+    margin: 0px;
+    text-shadow: 3px 5px 3px black;
+    background-color: #191919;
+    padding: 10px;
+}
+
+#find-fb-2 a{
+    color: #c0392b;
+}
+
+/*-----------MAIN-MENU-------------*/
+
+#jumbotron-3 {
+    background-image: url(Images/china-wallpaper-4-edit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    box-shadow: inset 0px 0px 207px 11px rgba(0,0,0,1);
+    height: 6525px;
+    margin-bottom: 0;
+    margin-top: -21px;
+    overflow: hidden;
+}
+
+#main-content-3 h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Exo';
+    border-bottom: 4px solid;
+    font-weight: bold;
+    padding-top: 55px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    letter-spacing: 4px;
+    text-shadow: 3px 5px 3px #c0392b;
+}
+
+#open-hours-3{
+    background-color: #191919;
+    position: fixed;
+    top: 80px;
+    border: 5px solid;
+    padding: 8px;
+    width: 23%;
+    height: 30%;
+    color: #c0392b;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    border-radius: 25px;
+    font-family: 'Exo';
+    text-shadow: 3px 5px 3px black;
+}
+
+#open-hours-3 h2 {
+    font-size: 19px;
+    border-bottom: 3px solid;
+    margin-top: 3px;
+    margin-bottom: 13px;
+    padding-bottom: 7px;
+    margin-left: 0px;
+    padding-left: 16px;
+    font-weight: 900;
+    text-shadow: 3px 5px 3px black;
+}
+
+#open-hours-3 h4 {
+     text-align: center;
+    margin-top: 16px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#open-hours-3 p {
+    font-size: 15px;
+    margin-bottom: -13px;
+    font-weight: 300;
+}
+
+
+#menu-body{
+    background-color: #191919;
+    border: 5px solid;
+    color: #c0392b;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    border-radius: 25px;
+    font-family: 'Exo';
+    text-shadow: 3px 5px 3px black;
+    margin-top: 40px;
+}
+
+#menu-header h2{
+    font-size: 38px;
+    font-weight: 700;
+    padding-left: 7%;
+    text-transform: uppercase;
+}
+
+#menu-item h3{
+    border-top: 3px solid #790000;
+    padding-top: 5px;
+    padding-left: 7%;
+    font-size: 19px;
+    margin-top: 12px;
+}
+#menu-item h3 span{
+    float: right;
+    padding-right: 5%;
+}
+
+#quick-list{
+    background-color: #191919;
+    position: fixed;
+    bottom: 205px;
+    border: 5px solid;
+    padding: 10px;
+    width: 23%;
+    height: 29%;
+    color: #c0392b;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    border-radius: 25px;
+    font-family: 'Exo';
+    text-shadow: 3px 5px 3px black;
+}
+
+#quick-list h2 {
+    font-size: 22px;
+    margin-top: -2px;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    font-weight: 900;
+    text-shadow: 3px 5px 3px black;
+}
+
+#quick-list h4 {
+    font-size: 15px;
+    margin-top: -1px;
+}
+
+#quick-list a{
+    color:#c0392b;
+}
+
+#quick-list h4:hover{
+    opacity: 0.7;
+}
+
+#take-away{
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    color: #c0392b;
+    text-shadow: 1px 1px 10px #333;
+    font-family: 'Exo';
+    margin: 0px;
+    text-shadow: 3px 5px 3px black;
+    background-color: #191919;
+    padding: 10px;
+}
+
+/*-----------SET-MENU-------------*/
+
+#jumbotron-4 {
+    background-image: url(Images/china-wallpaper-4-edit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    box-shadow: inset 0px 0px 207px 11px rgba(0,0,0,1);
+    height: 5990px;
+    margin-bottom: 0;
+    margin-top: -21px;
+    overflow: hidden;
+}
+
+#sub-head h2{
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#set-menu-item{
+    text-align: center;
+}
+
+h1#special, h2#menu-A, h2#menu-B, h2#menu-C{
+    text-align:center;
+    font-size: 45px;
+    font-weight: 800;
+    padding: 0;
+}
+
+#price h2{
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+#quick-list-2{
+    background-color: #191919;
+    position: fixed;
+    bottom: 220px;
+    border: 5px solid;
+    padding: 10px;
+    width: 23%;
+    height: 29%;
+    color: #c0392b;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    border-radius: 25px;
+    font-family: 'Exo';
+    text-shadow: 3px 5px 3px black;
+}
+
+#quick-list-2 h2 {
+    font-size: 22px;
+    margin-top: -2px;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    font-weight: 900;
+    text-shadow: 3px 5px 3px black;
+}
+
+#quick-list-2 h4 {
+    text-align: center;
+    padding-bottom: 18px;
+    font-size: 18px;
+    margin-top: -2px;
+}
+
+#quick-list-2 a{
+    color:#c0392b;
+}
+
+#quick-list-2 h4:hover{
+    opacity: 0.7;
+}
+
+/*-----WINE LIST/BEVERAGES------*/
+
+#jumbotron-5 {
+    background-image: url(Images/china-wallpaper-4-edit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    box-shadow: inset 0px 0px 207px 11px rgba(0,0,0,1);
+    height: 5160px;
+    margin-bottom: 0;
+    margin-top: -21px;
+    overflow: hidden;
+}
+
+h1.menu-sub{
+    text-align:left;
+    font-size: 45px;
+    font-weight: 800;
+    padding: 0;
+    margin-left: 25px;
+}
+
+
+h1.menu-sub span {
+    font-size: 20px;
+    float: right;
+    margin-right: 28px;
+}
+
+#wine-menu-item h3{
+    text-align: left;
+    font-size: 23px;
+    margin-left: 23px;
+}
+
+#wine-menu-item h3 span{
+    float: right;
+    margin-right: 11px;
+}
+
+#wine-menu-item h4{
+    margin-left:50px;
+}
+
+.country{
+    font-size: 32px;
+    text-align: center !important;
+}
+
+.country img{
+    width: 40px;
+    margin-left: 10px;
+}
+
+#wine-menu-item img{
+    width: 29px;
+    margin-left: 10px;   
+}
+
+#wine-span{
+    margin-right:86px !important;
+}
+
+#drink-menu-item h3{
+    text-align: left;
+    font-size: 23px;
+    margin-left: 23px;
+}
+
+#drink-menu-item h3 span{
+    float: right;
+    margin-right: 28px;
+}
+
+#drink-menu-item h4{
+    margin-left:50px;
+}
+
+#quick-list-3{
+    background-color: #191919;
+    z-index: 100000;
+    position: fixed;
+    bottom: 200px;
+    border: 5px solid;
+    padding: 10px;
+    width: 23%;
+    height: 31%;
+    color: #c0392b;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    border-radius: 25px;
+    font-family: 'Exo';
+    text-shadow: 3px 5px 3px black;
+}
+
+#quick-list-3 h2 {
+    font-size: 22px;
+    margin-top: -2px;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    font-weight: 900;
+    text-shadow: 3px 5px 3px black;
+}
+
+#quick-list-3 h4 {
+    text-align: center;
+    padding-bottom: 12px;
+    font-size: 18px;
+    margin-top: -1px;
+}
+
+#quick-list-3 a{
+    color:#c0392b;
+}
+
+#quick-list-3 h4:hover{
+    opacity: 0.7;
+}
+
+
+#jumbotron-6{
+    background-image: url(Images/china-wallpaper-4-edit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    box-shadow: inset 0px 0px 207px 11px rgba(0,0,0,1);
+    height: 815px;
+    margin-bottom: 0;
+    margin-top: -21px;
+    overflow: hidden;
+}
+
+
+fieldset{
+    background-color: #191919;
+    width: 100% !important;
+    color: #c0392b;
+    margin-top: 70px;
+    border: 5px solid;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    text-shadow: 1px 1px 10px #333;
+    border-radius: 25px;
+    font-family: 'Exo';
+    text-shadow: 3px 5px 3px black;
+}
+
+fieldset h3{
+    text-align: center;
+    margin-bottom: -25px;
+    font-weight: 900;
+}
+
+.areabox{
+    width:150px;
+}
+
+table{
+    margin-top: 40px;
+}
+
+td{
+    font-family: 'Exo';
+    padding: 15px;
+
+}
+
+input{
+    background-color: black;
+    border: 1px solid #c0392b;
+    padding-left: 6px;
+    text-shadow: 3px 5px 3px black;
+    box-shadow: 0px 0px 23px 8px rgba(0,0,0,0.85);
+}
+
+textarea{
+    background-color: black;
+    border: 1px solid #c0392b;
+    padding-left: 6px;
+    text-shadow: 3px 5px 3px black;
+    box-shadow: 0px 0px 23px 8px rgba(0,0,0,0.85);
+}
+
+#Button1{
+    color: #c0392b;
+    background-color: black;
+    border: 5px solid #c0392b;
+    padding: 5px 25px;
+    margin-right: 16px;
+    font-weight: 900;
+    margin-top: -57px;
+    float: right;
+    border-radius: 13px;
+}
+
+#Button1:hover{
+    color: #ecf0f1;
+    border: 5px solid #ecf0f1;
+}
+
+.google-map-2{
+    margin-top: 69px;
+    border: 11px solid #191919;
+    border-radius: 10px;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    width: 700px;
+    height: 400px;
+}
+
+#address{
+    background-color: #191919;
+    color: #c0392b;
+    margin-top: 70px;
+    border: 5px solid;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    text-shadow: 1px 1px 10px #333;
+    padding: 30px 0 30px 60px;
+    border-radius: 25px;
+    font-family: 'Exo';
+    text-shadow: 3px 5px 3px black;
+}
+
+#address h1{
+    font-family: Chinese;
+    margin-top: 10px;
+}
+
+#open-hours-4{
+    border: 5px solid;
+    padding: 10px;
+    border: 5px solid;
+    padding: 10px;
+    width: 100%;
+    margin-top: 69px;
+    color: #c0392b;
+    box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    text-shadow: 1px 1px 10px #333;
+    border-radius: 25px;
+    font-family: 'Exo';
+    text-shadow: 3px 5px 3px black;
+}
+#open-hours-4 h2{
+    font-size: 29px;
+    border-bottom: 4px solid;
+    padding-bottom: 11px;
+    font-weight: 900;
+    text-shadow: 3px 5px 3px black;
+}
+
+
+#open-hours-4 h4{
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+#open-hours-4 p{
+    font-size: 15px;
+}
+
+#jumbotron-7{
+    height: 580px;
+    background-color: #191919;
+}
