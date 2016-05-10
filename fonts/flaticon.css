@@ -27,17 +27,16 @@ margin-left: 20px;*/
     font-family: Flaticon;
     font-size: 28px;
     font-style: normal;
-    margin-right: -14%;
-    margin-left: 15%;
+    margin-left: 20px;
     content: "\e001";
 }
 
-@media(max-width: 358px) {
+@media(max-width: 428px) {
     .flaticon-pepper:before {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .flaticon-broccoli:before{
-        font-size:13px;
+        font-size:11px;
     }
 }
