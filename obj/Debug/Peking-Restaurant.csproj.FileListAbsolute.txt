@@ -1,6 +1,0 @@
-C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Peking-Restaurant\Peking-Restaurant\bin\Peking-Restaurant.dll.config
-C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Peking-Restaurant\Peking-Restaurant\bin\Peking-Restaurant.dll
-C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Peking-Restaurant\Peking-Restaurant\bin\Peking-Restaurant.pdb
-C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Peking-Restaurant\Peking-Restaurant\obj\Debug\Peking-Restaurant.csprojResolveAssemblyReference.cache
-C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Peking-Restaurant\Peking-Restaurant\obj\Debug\Peking-Restaurant.dll
-C:\Users\Mike\Desktop\My WEB DEV Projects\Visual Studio Projects\Projects\Peking-Restaurant\Peking-Restaurant\obj\Debug\Peking-Restaurant.pdb
