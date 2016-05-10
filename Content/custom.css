@@ -88,8 +88,11 @@
 /*                 2ND CONTENT                   */
 
 .jumbotron-1{
-    height:850px;
     background-color:#191919;
+}
+
+.jumbotron-1 .col-md-8{
+    margin-bottom: 45px;
 }
 
 #row-1{
@@ -180,6 +183,9 @@
     border: 5px solid #c0392b;
     border-radius: 10px;
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
+    display: block;
+    margin: 0 auto;
+    width: 90%;
 }
 
 /*      Trip Advisor      */
@@ -248,7 +254,20 @@ footer{
 @media(max-width: 1199px) {
 
     #trip-ad{
-        margin-top: 110%;
+        margin-top: 77%;
+    }
+
+    #open-hours h2{
+        font-size: 19px;
+    }
+
+    #open-hours h4{
+        margin-top: 8px;
+        font-size: 15px;
+    }
+
+    #open-hours p {
+        font-size: 13px;
     }
 
     #quick-list{
@@ -304,10 +323,6 @@ footer{
         margin-top: 85px;
     }
 
-    .jumbotron-1 {
-        height: 1200px;
-    }
-
     #jumbotron-7{
         height: 980px !important;
     }
@@ -351,10 +366,6 @@ footer{
         font-size: 46px;
     }
 
-    #menu-body{
-        width:72%;
-    }
-
     #open-hours-3{
         right: 38px;
         height: 271px !important;
@@ -393,6 +404,10 @@ footer{
         font-size: 18px !important;
     }
 
+    .google-map{
+        margin-top: 40px;
+    }
+
     .google-map-2{
         margin-left: 100px;
     }
@@ -421,7 +436,7 @@ footer{
 }
 
 
-@media(max-width: 766px) {
+@media(max-width: 768px) {
     .navbar-brand{
         font-size:25px;
     }
@@ -434,64 +449,30 @@ footer{
         margin-top: 95px !important;
     }
 
-    .google-map{
-        width: 70%;
-    }
 
     #main-content-3 h1{
         margin-top: 125px !important;
-    }
-
-    #open-hours-3{
-        display: none;
     }
 
     #jumbotron-2{
         height: 1760px !important;
     }
 
-    #jumbotron-4{
-        height: 7190px !important;
-    }
 
     #jumbotron-5{
         height: 5700px !important;
-    }
-
-
-    #menu-body{
-        width: 60% !important;
     }
 
     #menu-item h3{
         font-size: 14px !important;
     }
 
-    #quick-list{
-        width: 29% !important;
-        height: 205px !important;
+    #quick-list, #quick-list-2, #quick-list-3{
+        display: none;
     }
 
     #quick-list h2{
         font-size: 20px;
-    }
-
-    #quick-list h4{
-        font-size: 13px !important;
-        margin-bottom: 3px;
-    }
-
-    #quick-list-2{
-        height: 208px !important;
-    }
-
-    #quick-list-2 h2{
-        font-size: 16px !important;
-    }
-
-    #quick-list-2 h4{
-        font-size: 15px !important;
-        padding-bottom: 8px !important;
     }
 
     .col-xs-6 {
@@ -552,12 +533,6 @@ footer{
         margin-top: 70%;
     }
 
-    .google-map{
-        width: 360px;
-        height: 260px;
-        margin-left: 100px;
-    }
-
     .google-map-2{
         margin-left: 73px;
     }
@@ -574,16 +549,8 @@ footer{
          display: none;
      }
 
-    #menu-body{
-        width: 100% !important;
-    }
-
     #menu-item h3{
         font-size: 14px !important;
-    }
-
-    #jumbotron-4{
-        height: 6390px !important;
     }
 
     #field{
@@ -593,9 +560,6 @@ footer{
 }
 
 @media(max-width: 498px){
-    .google-map{
-        margin-left: 55px;
-    }
 
     #open-hours{
         margin-top: 80%;
@@ -613,10 +577,10 @@ footer{
 
 @media(max-width: 428px){
     #open-hours{
-        margin-top: 125%;
+        margin-top: 100%;
         width: 87%;
         margin-left: 7%;
-        margin-bottom: 35%;
+        margin-bottom: 5%;
     }
 
     #open-hours h2{
@@ -630,11 +594,6 @@ footer{
 
     #open-hours p{
         font-size:11px;
-    }
-
-    .google-map{
-        width: 95%;
-        margin-left: 4%;
     }
 
 
@@ -774,10 +733,6 @@ footer{
 
     #price h2{
         font-size: 22px;
-    }
-
-    #jumbotron-4 {
-        height: 5390px !important;
     }
     
     h1.menu-sub{
@@ -1021,11 +976,11 @@ footer{
 #quick-list{
     background-color: #191919;
     position: fixed;
-    bottom: 205px;
+    top: 100px;
     border: 5px solid;
     padding: 10px;
     width: 23%;
-    height: 29%;
+    height: 220px;
     color: #c0392b;
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
     border-radius: 25px;
@@ -1078,7 +1033,6 @@ footer{
     background-position-x: center;
     background-position-y: center;
     box-shadow: inset 0px 0px 207px 11px rgba(0,0,0,1);
-    height: 5990px;
     margin-bottom: 0;
     margin-top: -21px;
     overflow: hidden;
@@ -1109,11 +1063,11 @@ h1#special, h2#menu-A, h2#menu-B, h2#menu-C{
 #quick-list-2{
     background-color: #191919;
     position: fixed;
-    bottom: 220px;
+    top: 100px;
     border: 5px solid;
     padding: 10px;
     width: 23%;
-    height: 29%;
+    height: 230px;
     color: #c0392b;
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
     border-radius: 25px;
@@ -1227,13 +1181,12 @@ h1.menu-sub span {
 
 #quick-list-3{
     background-color: #191919;
-    z-index: 100000;
     position: fixed;
-    bottom: 200px;
+    top: 100px;
     border: 5px solid;
     padding: 10px;
     width: 23%;
-    height: 31%;
+    height: 255px;
     color: #c0392b;
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
     border-radius: 25px;
