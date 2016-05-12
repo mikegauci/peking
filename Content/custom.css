@@ -10,7 +10,6 @@
     color:#c0392b !important;
     font-family: Chinese;
     font-size: 40px;
-    text-shadow: 3px 5px 3px black;
 }
 
 .navbar-inverse .navbar-nav>li>a{
@@ -19,13 +18,11 @@
     font-family: Chinese;
     border-top: 4px solid;
     border-bottom: 4px solid;
-    text-shadow: 3px 5px 3px black;
 }
 
 .dropdown-menu{
     background-color: #222;
     border: 3px solid #c0392b;
-    text-shadow: 1px 1px 10px black;
     font-family: Chinese;
 
 }   
@@ -49,7 +46,7 @@
     height: 0%;
     border: 5px solid black;
     margin: 90px auto 70px;
-    box-shadow: 0px 0px 127px 120px rgba(0,0,0,0.85);
+    box-shadow: 0px 0px 65px 30px rgba(0,0,0,0.85);
 
 }
 
@@ -61,18 +58,18 @@
     text-align: center;
     color: black;
     font-family: 'Exo';
+    font-size: 40px;
     border-bottom: 4px solid;
     font-weight: bold;
     margin-top: 70px;
     padding-bottom: 15px;
     letter-spacing: 4px;
-    text-shadow: 3px 5px 3px #c0392b;
 }
 
 #main-content h3{
     text-align: center;
-    color: #c0392b;
-    text-shadow: 1px 4px 3px black;
+    color: black;
+    font-size: 20px;
     font-family: 'Exo';
     border-bottom: 4px solid black;
     padding-bottom: 15px;
@@ -81,9 +78,8 @@
 }
 
 #emph-text{
-    color: #c0392b;
+    color: black;
     font-family: Chinese;
-    text-shadow: 3px 5px 3px black;
 }
 /*                 2ND CONTENT                   */
 
@@ -109,7 +105,6 @@
 #carousel-comments{
     text-align: center;
     color: #c0392b;
-    text-shadow: 1px 1px 10px #333;
     font-family: 'Exo';
     border-bottom: 4px solid black;
     padding-bottom: 15px;
@@ -118,18 +113,15 @@
 
 #carousel-comments h1{
     font-weight: 900;
-    text-shadow: 3px 5px 3px black;
 }
 
 #carousel-comments h3{
     font-weight: bold;
-    text-shadow: 3px 5px 3px black;
 }
 
 #carousel-comments p{
     letter-spacing: 4px;
     padding-top: 30px;
-    text-shadow: 0px 1px 13px black;
 }
 
 #carousel-comments a{
@@ -146,10 +138,8 @@
     width: 100%;
     color: #c0392b;
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
-    text-shadow: 1px 1px 10px #333;
     border-radius: 25px;
     font-family: 'Exo';
-    text-shadow: 3px 5px 3px black;
 }
 
 #open-hours h2{
@@ -157,7 +147,6 @@
     border-bottom: 4px solid;
     padding-bottom: 11px;
     font-weight: 900;
-    text-shadow: 3px 5px 3px black;
 }
 
 
@@ -215,10 +204,8 @@
 #find-fb{
     text-align: center;
     color: #c0392b;
-    text-shadow: 1px 1px 10px #333;
     font-family: 'Exo';
     margin: 0;
-    text-shadow: 3px 5px 3px black;
     background-color: #191919;
     padding: 10px 0;
 }
@@ -240,7 +227,6 @@ footer{
     font-size: 17px;
     height: 0%;
     padding-top: 16px;
-    text-shadow: 3px 5px 3px black;
     border-top: 1px solid black;
 }
 
@@ -785,18 +771,18 @@ footer{
     color: black;
     font-family: 'Exo';
     border-bottom: 4px solid;
+    font-size: 40px;
     font-weight: bold;
     padding-bottom: 15px;
     margin-top: 70px;
     letter-spacing: 4px;
-    text-shadow: 3px 5px 3px #c0392b;
 }
 
 #main-content-2 h3 {
     text-align: center;
-    color: #c0392b;
-    text-shadow: 1px 4px 3px black;
+    color: black;
     font-family: 'Exo';
+    font-size: 20px;
     border-bottom: 4px solid black;
     padding-bottom: 15px;
     font-weight: 600;
@@ -814,27 +800,24 @@ footer{
 
 #open-hours-2 {
     background-color: #191919;
-    margin-top: 18px;
+    margin-top: 60px;
     border: 5px solid;
     padding: 10px;
-    width: 100%;
-    height: 320px;
+    width: 85%;
+    height: 285px;
     color: #c0392b;
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
-    text-shadow: 1px 1px 10px #333;
     border-radius: 25px;
     font-family: 'Exo';
-    text-shadow: 3px 5px 3px black;
 }
 
 #open-hours-2 h2 {
-    font-size: 29px;
+    font-size: 23px;
     border-bottom: 4px solid;
     padding-bottom: 11px;
     margin-left: 0px;
     padding-left: 23px;
     font-weight: 900;
-    text-shadow: 3px 5px 3px black;
 }
 
 #open-hours-2 h4 {
@@ -844,7 +827,7 @@ footer{
 }
 
 #open-hours-2 p {
-    font-size: 18px;
+    font-size: 15px;
     font-weight:300;
     margin-bottom: -20px;
 }
@@ -852,10 +835,8 @@ footer{
 #find-fb-2 {
     text-align: center;
     color: #c0392b;
-    text-shadow: 1px 1px 10px #333;
     font-family: 'Exo';
     margin: 0px;
-    text-shadow: 3px 5px 3px black;
     background-color: #191919;
     padding: 10px;
 }
@@ -888,7 +869,6 @@ footer{
     padding-bottom: 15px;
     margin-top: 0;
     letter-spacing: 4px;
-    text-shadow: 3px 5px 3px #c0392b;
 }
 
 #open-hours-3{
@@ -903,7 +883,6 @@ footer{
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
     border-radius: 25px;
     font-family: 'Exo';
-    text-shadow: 3px 5px 3px black;
 }
 
 #open-hours-3 h2 {
@@ -915,7 +894,6 @@ footer{
     margin-left: 0px;
     padding-left: 16px;
     font-weight: 900;
-    text-shadow: 3px 5px 3px black;
 }
 
 #open-hours-3 h4 {
@@ -940,7 +918,6 @@ footer{
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
     border-radius: 25px;
     font-family: 'Exo';
-    text-shadow: 3px 5px 3px black;
     margin-top: 40px;
 }
 
@@ -976,7 +953,6 @@ footer{
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
     border-radius: 25px;
     font-family: 'Exo';
-    text-shadow: 3px 5px 3px black;
 }
 
 #quick-list h2 {
@@ -986,7 +962,6 @@ footer{
     padding-bottom: 10px;
     padding-left: 17px;
     font-weight: 900;
-    text-shadow: 3px 5px 3px black;
 }
 
 #quick-list h4 {
@@ -1007,10 +982,8 @@ footer{
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     color: #c0392b;
-    text-shadow: 1px 1px 10px #333;
     font-family: 'Exo';
     margin: 0px;
-    text-shadow: 3px 5px 3px black;
     background-color: #191919;
     padding: 10px;
 }
@@ -1063,7 +1036,6 @@ h1#special, h2#menu-A, h2#menu-B, h2#menu-C{
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
     border-radius: 25px;
     font-family: 'Exo';
-    text-shadow: 3px 5px 3px black;
 }
 
 #quick-list-2 h2 {
@@ -1073,7 +1045,6 @@ h1#special, h2#menu-A, h2#menu-B, h2#menu-C{
     padding-bottom: 10px;
     padding-left: 17px;
     font-weight: 900;
-    text-shadow: 3px 5px 3px black;
 }
 
 #quick-list-2 h4 {
@@ -1182,7 +1153,6 @@ h1.menu-sub span {
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
     border-radius: 25px;
     font-family: 'Exo';
-    text-shadow: 3px 5px 3px black;
 }
 
 #quick-list-3 h2 {
@@ -1192,7 +1162,6 @@ h1.menu-sub span {
     padding-bottom: 10px;
     padding-left: 17px;
     font-weight: 900;
-    text-shadow: 3px 5px 3px black;
 }
 
 #quick-list-3 h4 {
@@ -1232,10 +1201,8 @@ fieldset{
     margin-top: 70px;
     border: 5px solid;
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
-    text-shadow: 1px 1px 10px #333;
     border-radius: 25px;
     font-family: 'Exo';
-    text-shadow: 3px 5px 3px black;
 }
 
 fieldset h3{
@@ -1262,7 +1229,6 @@ input{
     background-color: black;
     border: 1px solid #c0392b;
     padding-left: 6px;
-    text-shadow: 3px 5px 3px black;
     box-shadow: 0px 0px 23px 8px rgba(0,0,0,0.85);
 }
 
@@ -1270,7 +1236,6 @@ textarea{
     background-color: black;
     border: 1px solid #c0392b;
     padding-left: 6px;
-    text-shadow: 3px 5px 3px black;
     box-shadow: 0px 0px 23px 8px rgba(0,0,0,0.85);
 }
 
@@ -1305,13 +1270,12 @@ textarea{
     background-color: #191919;
     color: #c0392b;
     margin-top: 70px;
+    font-size: 20px;
     border: 5px solid;
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
-    text-shadow: 1px 1px 10px #333;
     padding: 30px 0 30px 60px;
     border-radius: 25px;
     font-family: 'Exo';
-    text-shadow: 3px 5px 3px black;
 }
 
 #address h1{
@@ -1319,32 +1283,34 @@ textarea{
     margin-top: 10px;
 }
 
+#address h2{
+    font-size: 20px;
+}
+
 #open-hours-4{
     border: 5px solid;
     padding: 10px;
     border: 5px solid;
+    height: 330px;
     padding: 10px;
     width: 100%;
     margin-top: 69px;
     color: #c0392b;
     box-shadow: 0px 0px 59px 19px rgba(0,0,0,0.85);
-    text-shadow: 1px 1px 10px #333;
     border-radius: 25px;
     font-family: 'Exo';
-    text-shadow: 3px 5px 3px black;
 }
 #open-hours-4 h2{
     font-size: 29px;
     border-bottom: 4px solid;
     padding-bottom: 11px;
     font-weight: 900;
-    text-shadow: 3px 5px 3px black;
 }
 
 
 #open-hours-4 h4{
     text-align: center;
-    margin-top: 35px;
+    margin-top: 20px;
     font-weight: bold;
 }
 
@@ -1353,6 +1319,5 @@ textarea{
 }
 
 #jumbotron-7{
-    height: 580px;
     background-color: #191919;
 }
